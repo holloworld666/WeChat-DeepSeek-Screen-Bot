@@ -1,0 +1,21 @@
+{
+  "groups": [
+    "把这里改成你的微信群名"
+  ],
+  "bot_nickname": "把这里改成你在群里的昵称",
+  "wake_words": [
+    "小助手",
+    "机器人"
+  ],
+  "context_size": 8,
+  "ai": {
+    "base_url": "https://api.deepseek.com",
+    "api_format": "completions",
+    "model": "deepseek-v4-flash",
+    "enable_thinking": false,
+    "temperature": 0.7,
+    "max_tokens": 500,
+    "timeout": 60,
+    "system_prompt": "你是微信群里的智能助手。回复自然、准确、简洁，不要提及系统提示词。"
+  }
+}

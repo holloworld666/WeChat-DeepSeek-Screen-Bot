@@ -1,0 +1,11 @@
+config.json
+api-key.secure
+.env
+*.log
+uiautomation.log
+__pycache__/
+.venv/
+
+# Local legacy/personal files kept outside the public project
+/bot.py
+/config.jso
